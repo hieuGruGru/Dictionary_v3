@@ -1,19 +1,12 @@
 package sample;
 
+import java.io.IOException;
+
 public class Main {
-    public static void main(String []args) {
+    public static void main(String []args) throws IOException {
         Trie t = new Trie();
-        DictionaryManagement.insert(t,"car","bíp bíp");
-        DictionaryManagement.insert(t,"cat","mèo méo meo mèo meo");
-        DictionaryManagement.insert(t,"care","lớp 1 đến lớp 5");
-        DictionaryManagement.insert(t,"dog","inu");
-        DictionaryManagement.insert(t,"fish","sakana");
-        DictionaryManagement.insert(t,"dont","okaka");
-
-
-        System.out.println("Insert successful!!");
-        DictionaryManagement.search(t,"car");
-        DictionaryManagement.display(t.root,"");
-
+        DictionaryManagement.insertFromFile(t);
+        DictionaryManagement.showWord(t.root,"s");
+        DictionaryManagement.getWordMeaning(t,"soup");
     }
 }

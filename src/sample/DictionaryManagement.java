@@ -28,27 +28,21 @@ public class DictionaryManagement {
         current.meaning = meaning;
     }
 
-    /*
-    public static void insertFromFile(Dictionary dictionary1) throws IOException { //Load các cặp từ từ file .txt vào mảng các Word
+    public static void insertFromFile(Trie trie1) throws IOException { //Load các cặp từ từ file .txt vào mảng các Word
 
-        File filename = new File("D:/1.Subjects/OOP/OOP_N1_BTL_N9/soucre_code/Dictionary_v1/src/Package1/dictionaries.txt");
+        File filename = new File("D:/java/Dictionary/Dictionary_v3/src/sample/dictionaries1.txt");
         Scanner sc = new Scanner(filename);
         while(sc.hasNextLine()){
             String currentLine = sc.nextLine();
             int indexOfTab = currentLine.indexOf("\t");
-            //System.out.println("Vi tri dau tab la : " + indexOfTab);
             String target = currentLine.substring(0, indexOfTab);
-            //System.out.println("Tu dau tien la : " + target);
             String explain = currentLine.substring(indexOfTab + 1, currentLine.length());
-            //System.out.println("Tu thu hai la : " + explain);
-            Word newWord = new Word(target, explain);
-            dictionary1.arrayOfWord.add(newWord);
+            insert(trie1, target, explain);
         }
         sc.close();
     }
-     */
 
-    public static void search(Trie trie1, String word) {
+    public static void getWordMeaning(Trie trie1, String word) {
         if(word == null || word.isEmpty()) {
             throw new IllegalArgumentException("Invalid or empty string");
         }
@@ -64,9 +58,16 @@ public class DictionaryManagement {
         }
         System.out.println("Nghĩa của từ " + word + " là : " + current.meaning);
     }
+    public static void showWord( Trie.TrieNode node, String word) {
+        Trie.TrieNode current = node;
+        for(int i = 0; i < word.length(); i ++) {
+            int index = word.charAt(i) - 'a';
+            current = current.children[index];
+        }
+        display(current,word);
+    }
 
     public static void display(Trie.TrieNode node, String about) {
-
         Trie.TrieNode current = node;
         if (current != null) {
             if (current.endOfWord == true) {
