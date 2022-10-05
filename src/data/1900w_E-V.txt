@@ -1,11 +1,11 @@
-counselor cố vấn
+counselor	cố vấn
 witness	nhân chứng
 chapter	chương
 fellow	đồng bào
 divorce	ly hôn
 owe	nợ
 pipe	ống
-athletic Khỏe mạnh
+athletic	Khỏe mạnh
 slight	nhẹ
 math	môn Toán
 shade	bóng râm
@@ -26,13 +26,12 @@ efficient	hiệu quả
 damage	hư hại
 composition	thành phần
 satisfy	làm vui lòng
-pile	Đóng cọc
 briefly	ngắn gọn
 carbon	carbon
 closer	gần hơn
 consume	tiêu dùng
 scheme	kế hoạch
-c rack	bẻ khóa
+crack	bẻ khóa
 frequency	tần số
 tobacco	thuốc lá
 survivor	người sống sót
@@ -91,7 +90,7 @@ proportion	tỉ lệ
 guideline	hướng dẫn
 rifle	súng trường
 maintenance	bảo trì
-conviction	lòng tin chắc, sự kết án, phán quyết
+conviction	lòng tin chắc
 trick	lừa
 organic	hữu cơ
 tent	lều
@@ -113,7 +112,7 @@ bombing	ném bom
 membership	thành viên
 ratio	tỉ lệ
 menu	thực đơn
-purchase	mua, tựa vào, bám vào
+purchase	mua
 controversial	gây tranh cãi
 desperate	tuyệt vọng
 rate	tỷ lệ
@@ -129,9 +128,8 @@ helicopter	máy bay trực thăng
 Catholic	Công giáo
 modest	khiêm tốn
 provider	các nhà cung cấp
-delay	sự chậm trễ
 agricultural	nông nghiệp
-explo de	nổ tung
+explode	nổ tung
 stroke	Cú đánh
 scope	phạm vi
 punishment	hình phạt
@@ -139,7 +137,6 @@ handful	ít
 badly	tệ
 horizon	đường chân trời
 curious	Hiếu kỳ
-downtown	trung tâm thành phố
 girlfriend	bạn gái
 prompt	nhắc nhở
 request	yêu cầu
@@ -170,7 +167,6 @@ undergo	trải qua
 sequence	trình tự
 demonstration	trình diễn
 jet	máy bay phản lực
-orange	trái cam
 consumption	tiêu dùng
 assert	khẳng định
 blade	lưỡi
@@ -229,7 +225,6 @@ cope	đối phó
 flame	ngọn lửa
 cluster	cụm
 host	chủ nhà
-wound	vết thương
 dependent	phụ thuộc
 shower	vòi hoa sen
 institutional	thể chế
@@ -239,13 +234,11 @@ flesh	xác thịt
 garage	gara
 operator	nhà điều hành
 instructor	giảng viên
-collapse	sự sụp đổ
 borrow	vay
 furthermore	hơn nữa
 comedy	phim hài
 mortgage	thế chấp
-sanction (PL)	sự trừng phạt (PL)
-civilian	dân thường
+sanction	sự trừng phạt
 twelve	mười hai
 weekly	hàng tuần
 habitat	môi trường sống
@@ -253,7 +246,7 @@ grain	ngũ cốc
 brush	chải
 consciousness	ý thức
 devote	cống hiến
-c rack	bẻ khóa
+crack	bẻ khóa
 measurement	phép đo
 province	tỉnh
 ease	giảm bớt
@@ -277,7 +270,6 @@ shore	bờ biển
 repeatedly	nhiều lần
 lung	phổi
 firm	chắc chắn
-running	đang chạy
 correct	chính xác
 distinct	khác biệt
 artistic	nghệ thuật
@@ -295,7 +287,7 @@ ghost	ma
 persuade	truy vấn
 moderate	vừa phải
 subsequent	sau đó
-continued	tiếp tục
+continued	tiếp tục/
 cookie	bánh quy
 carrier	vận chuyển
 cooking	nấu nướng
@@ -329,17 +321,15 @@ adequate	đầy đủ
 piano	đàn piano
 grocery	tạp hóa
 intensity	cường độ
-exhibit	triển lãm
 high	cao
 blanket	cái mền
 margin	lề
-principal	hiệu trưởng
 quarterback	tiền vệ
 mouse	chuột
 rope	dây thừng
 concrete	bê tông
 prescription	đơn thuốc
-African-American	Người Mỹ gốc Phi
+AfricanAmerican	Người Mỹ gốc Phi
 chase	đuổi theo
 document	tài liệu
 brick	gạch
@@ -370,7 +360,7 @@ sacred	Linh thiêng
 criminal	phạm tội
 formula	công thức
 cognitive	nhận thức
-collective	tập thể
+collective	tập thể/
 exact	chính xác
 uncle	Chú
 square	Quảng trường
@@ -407,7 +397,7 @@ couch	đi văng
 alliance	liên minh
 hypothesis	giả thuyết
 boyfriend	bạn trai
-compose	soạn, biên soạn
+compose	biên soạn
 peer	ngang nhau
 mess	lộn xộn
 rank	cấp
@@ -419,7 +409,6 @@ norm	định mức
 upset	buồn bã
 remark	nhận xét
 resign	từ chức
-reward	phần thưởng
 gentle	dịu dàng
 related	liên quan
 organ	đàn organ
@@ -439,7 +428,6 @@ salmon	cá hồi
 favor	ủng hộ
 trading	thương mại
 concern	mối quan ngại
-magic	ma thuật
 superior	cấp trên
 combat	chống lại
 stem	thân cây
@@ -520,7 +508,7 @@ pig	con lợn
 cold	lạnh
 classical	cổ điển
 estimated	ước tính
-T-shirt	Áo thun
+Tshirt	Áo thun
 online	Trực tuyến
 unemployment	thất nghiệp
 civilization	nền văn minh
@@ -648,10 +636,9 @@ infrastructure	cơ sở hạ tầng
 hurry	vội
 privilege	đặc quyền
 temple	ngôi đền
-medium	Trung bình
 outdoor	ngoài trời
 suck	hút
-and/or	và / hoặc
+and	và
 broadcast	phát sóng
 re	lại
 leap	nhảy vọt
@@ -667,7 +654,6 @@ cattle	gia súc
 subject	môn học
 walking	đi dạo
 playoff	playoff
-minimum	tối thiểu
 fiscal	tài chính
 skirt	váy
 dump	đổ
@@ -690,7 +676,7 @@ horn	sừng
 chronic	mãn tính
 peaceful	bình yên
 innovation	đổi mới
-strain	sự căng thẳng, quá tải
+strain	sự căng thẳng
 guitar	đàn ghi ta
 replacement	thay thế
 behave	hành xử
@@ -815,7 +801,7 @@ suspend	đình chỉ
 rebel	nổi loạn
 frozen	đông lạnh
 desire	khao khát
-spouse	vợ / chồng
+spouse	vợ hoặc chồng
 fluid	chất lỏng
 pension	lương hưu
 resume	tiếp tục
@@ -851,7 +837,6 @@ timing	thời gian
 engagement	hôn ước
 ankle	mắt cá
 transaction	Giao dịch
-rescue	cứu hộ
 counterpart	đối tác
 historically	lịch sử
 firmly	vững chắc
@@ -939,7 +924,6 @@ expertise	chuyên môn
 practically	thực tế
 program	chương trình
 picture	hình ảnh
-tune	điều chỉnh
 eating	Ăn
 age	tuổi tác
 volunteer	Tình nguyện
@@ -970,7 +954,7 @@ worry	lo
 judicial	tư pháp
 entity	thực thể
 suffering	đau khổ
-full-time	toàn thời gian
+fulltime	toàn thời gian
 feel	cảm thấy
 lamp	đèn
 garbage	rác thải
@@ -1006,7 +990,7 @@ isolate	cô lập
 pump	máy bơm
 inventory	hàng tồn kho
 productive	có năng suất
-assembly	hội,, tổ hợp
+assembly	tổ hợp
 civic	công dân
 silk	lụa
 magnitude	độ lớn
@@ -1102,13 +1086,12 @@ Dutch	Người Hà Lan
 quantity	số lượng
 trailer	trailer
 mate	người bạn đời
-o'clock	giờ
+oclock	giờ
 Greek	người Hy Lạp
 genius	Thiên tài
 monument	tượng đài
 bid	BID
 quest	nhiệm vụ
-sacrifice	sự hy sinh
 invitation	lời mời
 accuracy	tính chính xác
 juror	bồi thẩm đoàn
@@ -1148,7 +1131,6 @@ heat	nhiệt
 buddy	Bạn bè
 barn	chuồng trại
 sword	thanh kiếm
-flash	đèn flash
 seventh	thứ bảy
 glory	vinh quang
 tightly	chặt chẽ
@@ -1188,18 +1170,16 @@ cage	cái lồng
 equip	Trang bị
 shrimp	con tôm
 homeland	quê hương
-exchange	trao đổi, giao dịch
+exchange	trao đổi
 rack	giá đỡ
 costume	trang phục
 wolf	chó sói
 courtroom	phòng xử án
 statute	đạo luật
 cartoon	hoạt hình
-besides	ngoài ra
 productivity	năng suất
 grin	nụ cười
 symbolic	tượng trưng
-seal	niêm phong
 bug	lỗi
 bless	ban phước
 aunt	cô dì
@@ -1211,7 +1191,7 @@ conceive	thụ thai
 combined	kết hợp
 instantly	ngay lập tức
 bankruptcy	phá sản
-vaccine	vắc-xin
+vaccine	vắcxin
 bonus	thưởng
 collaboration	hợp tác
 mixed	pha trộn
@@ -1227,7 +1207,6 @@ willingness	sự sẵn lòng
 position	Chức vụ
 revelation	sự mặc khải
 rent	thuê
-calm	điềm tĩnh
 jewelry	đồ trang sức
 Cuban	Cuba
 haul	lôi
@@ -1287,7 +1266,7 @@ ministry	Bộ
 verdict	bản án
 instruct	dạy
 skull	sọ
-self-esteem	lòng tự trọng
+selfesteem	lòng tự trọng
 ease	giảm bớt
 cooperative	hợp tác xã
 manipulate	vận dụng
@@ -1391,7 +1370,7 @@ interact	tương tác
 soap	xà bông
 cute	dễ thương
 rival	đối thủ
-short-term	thời gian ngắn
+shortterm	thời gian ngắn
 punch	đấm
 pin	ghim
 hockey	khúc côn cầu
@@ -1402,12 +1381,10 @@ known	nổi tiếng
 momentum	Đà
 purse	cái ví
 shed	đổ ra
-liquid	chất lỏng
 icon	biểu tượng
 elephant	con voi
 consequently	hậu quả là
 legislature	cơ quan lập pháp
-associate	liên kết
 franchise	nhượng quyền thương mại
 correctly	đúng
 mentally	tinh thần
@@ -1445,7 +1422,7 @@ dough	bột
 grandchild	cháu ngoại
 dam	con đập
 reportedly	báo cáo
-well-known	nổi tiếng
+wellknown	nổi tiếng
 surrounding	xung quanh
 ecological	sinh thái
 outfit	trang phục
@@ -1464,7 +1441,6 @@ hormone	hoocmon
 texture	kết cấu
 counter	quầy tính tiền
 pencil	bút chì
-associate	liên kết
 frontier	biên giới
 spray	Xịt nước
 bet	cá cược
@@ -1478,7 +1454,6 @@ case	trường hợp
 eighth	thứ tám
 notebook	sổ tay
 outline	đề cương
-gaze	nhìn chằm chằm
 attendance	sự tham dự
 speculation	suy đoán
 uncover	khám phá
@@ -1501,10 +1476,8 @@ stance	lập trường
 compel	bắt buộc
 sensitivity	nhạy cảm
 someday	một ngày nào đó
-instant	tức thời
 debut	ra mắt
 proclaim	tuyên bố
-worldwide	trên toàn thế giới
 hike	đi lang thang
 required	cần thiết
 confrontation	đối đầu
@@ -1591,7 +1564,7 @@ publicity	công khai
 major	chính
 unfold	mở ra
 joke	đùa
-well-being	hạnh phúc
+wellbeing	hạnh phúc
 validity	hiệu lực
 ecosystem	hệ sinh thái
 strictly	nghiêm khắc
@@ -1611,7 +1584,7 @@ artifact	đồ tạo tác
 sneak	sneak
 monkey	con khỉ
 mentor	người cố vấn
-two-thirds	hai phần ba
+twothirds	hai phần ba
 listener	người nghe
 lightning	sét đánh
 legally	hợp pháp
@@ -1620,7 +1593,7 @@ disappointment	thất vọng
 disturb	xáo trộn
 rib	xương sườn
 excessive	quá đáng
-high-tech	công nghệ cao
+hightech	công nghệ cao
 debris	mảnh vụn
 pile	Đóng cọc
 rod	gậy
@@ -1665,7 +1638,6 @@ eligible	hội đủ điều kiện
 processor	bộ vi xử lý
 plunge	lao xuống
 this	điều này
-sponsor	nhà tài trợ
 grin	nụ cười
 color	màu
 demographic	nhân khẩu học
@@ -1692,7 +1664,6 @@ comply	tuân theo
 triumph	triumph
 shareholder	cổ đông
 comparable	so sánh
-transport	vận chuyển
 conscience	lương tâm
 calculation	phép tính
 considerably	đáng kể
@@ -1707,7 +1678,6 @@ emotionally	tình cảm
 expedition	thám hiểm
 allegedly	bị cáo buộc
 compromise	thỏa hiệp
-strain	sự căng thẳng, quá tải
 similarity	sự giống nhau
 butt	mông
 lid	Nắp
@@ -1790,7 +1760,7 @@ globe	quả địa cầu
 fragile	mong manh
 objection	sự phản đối
 chemistry	hóa học
-old-fashioned	Cổ hủ
+oldfashioned	Cổ hủ
 crowded	Đông người
 circle	vòng tròn
 blast	vụ nổ
@@ -1852,11 +1822,10 @@ veteran	cựu chiến binh
 integrated	tích hợp
 ha	ha
 youngster	thiếu niên
-broadcast	phát sóng
 premium	phí bảo hiểm
 accountability	trách nhiệm giải trình
 overwhelm	quá tải
-one-third	một phần ba
+onethird	một phần ba
 contemplate	thưởng ngoạn
 update	cập nhật
 spark	tia lửa
@@ -1894,7 +1863,6 @@ ribbon	ribbon
 meantime	thời gian chờ đợi
 transmit	chuyển giao
 screen	màn
-harvest	mùa gặt
 consecutive	liên tiếp
 republican	nhà nước cộng hòa
 coordinate	danh từ
@@ -1997,6 +1965,6 @@ pistol	súng lục
 naval	hải quân
 plaintiff	nguyên đơn
 kid	đứa trẻ
-middle-class	tầng lớp trung lưu
+middleclass	tầng lớp trung lưu
 apology	xin lỗi
 till	cho đến
