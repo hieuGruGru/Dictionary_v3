@@ -1,7 +1,10 @@
 package sample;
 
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class DictionaryManagement {
@@ -31,7 +34,6 @@ public class DictionaryManagement {
     }
 
     public static void insertFromFile(String path) throws IOException, IllegalAccessException { //Load các cặp từ từ file .txt vào mảng các Word
-
         File filename = new File(path);
         Scanner sc = new Scanner(filename);
         while (sc.hasNextLine()) {
@@ -66,9 +68,8 @@ public class DictionaryManagement {
         if (current != null) {
             if (current.endOfWord == true) {
                 String target = current.target;
-                String target_N = current.target_Normalize;
                 String meaning = current.getMeaning();
-                System.out.println(target + "  " + target_N + "  " + meaning);
+                System.out.println(target + "  " + "  " + meaning);
             }
             for (int i = 0; i < 26; i++) {
                 if (current.children[i] != null) {
@@ -78,16 +79,42 @@ public class DictionaryManagement {
         }
     }
 
-    public static void loadToList(Trie.TrieNode node, String str) {
+    public static void exportToFile() throws IOException { //Ghi các từ mới vào file .txt
+        File fileOut = new File("D:\\java\\Dictionary\\Dictionary_v3\\src\\data\\17w-export.txt");
+        FileWriter fileWriter = new FileWriter(fileOut,true);
+        BufferedWriter bWrite = new BufferedWriter(fileWriter);
+
+        loadToList(dictionary1.trie.root, dictionary1.list1, 1);
+        loadToList(dictionary1.trie.root, dictionary1.list3, 2);
+        for(int i = 0; i < dictionary1.list1.size(); i ++) {
+            bWrite.write(dictionary1.list1.get(i) + "\t");
+            bWrite.write(dictionary1.list3.get(i) + "\n");
+        }
+        bWrite.close();
+    }
+
+    public static void loadToList(Trie.TrieNode node, ArrayList list, int mode) {
         Trie.TrieNode current = node;
-        if (current != null) {
-            if (current.endOfWord == true) {
-                dictionary1.list.add(str);
+        if (mode == 1) {// Lưu target
+            if (current != null) {
+                if (current.getEndOfWord()) {
+                    list.add(current.getTarget());
+                }
+                for (int i = 0; i < 26; i++) {
+                    if (current.children[i] != null) {
+                        loadToList(current.children[i], list, mode);
+                    }
+                }
             }
-            for (int i = 0; i < 26; i++) {
-                if (current.children[i] != null) {
-                    str = current.children[i].getMeaning();
-                    loadToList(current.children[i], str + ((char) (i + 97)));
+        } else {//Lưu meaning
+            if (current != null) {
+                if (current.getEndOfWord()) {
+                    list.add(current.getMeaning());
+                }
+                for (int i = 0; i < 26; i++) {
+                    if (current.children[i] != null) {
+                        loadToList(current.children[i], list, 2);
+                    }
                 }
             }
         }

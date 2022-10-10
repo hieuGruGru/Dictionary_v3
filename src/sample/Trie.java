@@ -18,6 +18,9 @@ public class Trie {
                 this.children[i] = null;
             }
         }
+        public boolean getEndOfWord() {
+            return endOfWord;
+        }
         public String getTarget() {
             return target;
         }
